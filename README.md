@@ -14,7 +14,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/warp-cleanupAgency/Fo
 
 after you insert that into the script, you can make your skin
 [[!!BEFORE YOU START MAKING YOUR SCRIPT, MAKE A RIG IN STUDIO THAT IS COMPLETELY UNANCHORED AND ISNT WELDED TO ANYTHING EXTERNAL!!]]
-Publish the Rig to roblox, scroll down in creator dashboard and find the Distribute To Marketplace option. Enable it as it is NEEDED for it to get loaded in! Then copy the id (ex. 4915219921, without the rbxassetid://, formatted as a NUMBER)
+Right click on the Rig in explorer, click Save/Export and Save To Roblox, once its done, itll show you the creator dashboard url, scroll down in creator dashboard and find the Distribute To Marketplace option. Enable it as it is NEEDED for it to get loaded in! Then copy the id (ex. 4915219921, without the rbxassetid://, formatted as a NUMBER)
 
 HOW YOUR SCRIPT SHOULD START AFTER PASTING IN THE LOADSTRING
 loadstring goes here yada yada
