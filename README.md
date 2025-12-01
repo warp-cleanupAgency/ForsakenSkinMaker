@@ -13,4 +13,4 @@ First, Insert this line of code into the top of your screen and add some sort of
 loadstring(game:HttpGet("https://raw.githubusercontent.com/warp-cleanupAgency/ForsakenSkinMaker/refs/heads/main/skinfunctions.lua", true))()
 
 after you insert that into the script, you can make your skin
-[[BEFORE YOU START MAKING YOUR SCRIPT, MAKE A RIG IN STUDIO. HERE IS A MODEL OF ALL THE FORSAKEN KILLERS SO YOU CAN USE THAT AS A BASE: ]]
+[[!!BEFORE YOU START MAKING YOUR SCRIPT, MAKE A RIG IN STUDIO THAT IS COMPLETELY UNANCHORED AND ISNT WELDED TO ANYTHING EXTERNAL!!]]
