@@ -84,6 +84,9 @@ function Animate(userr, actor, data)
 			   if v.Priority then
 				   track.Priority = v.Priority
 			   end
+			   if v.AdjustedSpeed then
+               track:AdjustSpeed(v.AdjustedSpeed)
+			   end
 			   track:Play()
 			   if v.Callback then
 				   v.Callback()
