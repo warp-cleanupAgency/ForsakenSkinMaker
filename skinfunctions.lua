@@ -91,8 +91,10 @@ function Animate(userr, actor, data)
 		local func3
 		local func4
 		func3 = anim.Stopped:Connect(function()
+		if not v.DontStop then
 		oldtrack:Stop()
 		track:Stop()
+		end
         if func3 then func3:Disconnect() end
 		if func4 then func4:Disconnect() end
 		end)
