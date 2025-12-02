@@ -60,6 +60,7 @@ function Animate(userr, actor, data)
 		task.spawn(function()
         while oldtrack.IsPlaying do
            oldtrack:AdjustSpeed(anim.Speed)
+		   task.wait()
 		end
 		end)
 		local func1
