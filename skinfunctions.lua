@@ -57,6 +57,11 @@ function Animate(userr, actor, data)
 	animPlayed = character.Humanoid.Animator.AnimationPlayed:Connect(function(anim)
 	    local oldtrack = actor.Humanoid.Animator:LoadAnimation(anim.Animation)
 		oldtrack:Play()
+		task.spawn(function()
+        while oldtrack.IsPlaying do
+           oldtrack:AdjustSpeed(anim.Speed)
+		end
+		end)
 		local func1
 		local func2
 		func1 = anim.Stopped:Connect(function()
